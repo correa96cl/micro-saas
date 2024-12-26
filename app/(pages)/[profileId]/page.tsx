@@ -1,13 +1,24 @@
 import ProjectCard from "@/app/components/commons/project-card";
 import TotalVisits from "@/app/components/commons/total-visits";
 import UserCard from "@/app/components/commons/user-card";
+import { auth } from "@/app/lib/auth";
+import { getProfileData } from "@/app/server/get-profile-data";
 import { Link, Plus } from "lucide-react";
+import { notFound } from "next/navigation";
 export default async function ProfilePage({
     params,
 }: {
     params: Promise<{ profileId: string }>;
 }) {
     const { profileId } = await params;
+
+    const profileData = await getProfileData(profileId);
+  if (!profileData) return notFound();
+  // TODO: get projects
+  const session = await auth();
+  const isOwner = profileData.userId === session?.user?.id;
+  // TODO: Adicionar page view
+  // Se o usuario não estiver mais no trial, nao deixar ver o projeto. Redirecionar para upgrade
     return (
         <div className="relative h-screen flex p-20 overflow-hidden">
             <div className="fixed top-0 left-0 w-full flex justify-center items-center gap-1 py-2 bg-background-tertiary">
