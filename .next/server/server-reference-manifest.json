@@ -1,5 +1,17 @@
 {
-  "node": {},
+  "node": {
+    "00efba5c67786fc33bab98d08023c68741a1d33aa0": {
+      "workers": {
+        "app/(pages)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Factions%2Fmanage-auth.ts%22%2C%5B%5B%2200efba5c67786fc33bab98d08023c68741a1d33aa0%22%2C%22manageAuth%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": true
+        }
+      },
+      "layer": {
+        "app/(pages)/page": "rsc"
+      }
+    }
+  },
   "edge": {},
   "encryptionKey": "wx/tFM8Ykt0ekSL+mmmJlqF6msolxZ6cVu4uH0qzfMo="
 }
