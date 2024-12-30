@@ -1,8 +1,9 @@
 import Button from "@/app/ui/button";
 import TextInput from "@/app/ui/text-input";
-import UserCard from "../commons/user-card";
+import UserCard from "../commons/user-card/user-card";
 import TotalVisits from "../commons/total-visits";
 import ProjectCard from "../commons/project-card";
+import { profile } from "console";
 
 export default function Hero() {
     return (
@@ -29,7 +30,7 @@ export default function Hero() {
               { <TotalVisits /> }
             </div>
             <div className="absolute top-[20%] -left-[45%] -z-10">
-              {<ProjectCard /> }
+              {<ProjectCard name="Projeto 1" img="/me.webp"  /> }
             </div>
             <div className="absolute -top-[5%] -left-[55%] -z-10">
               { <ProjectCard /> }
