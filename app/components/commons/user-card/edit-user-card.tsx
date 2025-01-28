@@ -2,9 +2,7 @@
 import { ArrowUpFromLine, UserPen } from "lucide-react";
 import { startTransition, useState } from "react";
 import Modal from "../../ui/modal";
-import TextInput from "../../ui/text-input";
-import TextArea from "../../ui/text-area";
-import Button from "../../ui/button";
+
 import {
   compressFiles,
   handleImageInput,
@@ -13,6 +11,9 @@ import {
 import { useParams, useRouter } from "next/navigation";
 import { saveProfile } from "@/app/actions/save-profile";
 import { ProfileData } from "@/app/server/get-profile-data";
+import TextInput from "@/app/ui/text-input";
+import TextArea from "@/app/ui/text-area";
+import Button from "@/app/ui/button";
 export default function EditUserCard({
   profileData,
 }: {

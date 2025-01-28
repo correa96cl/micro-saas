@@ -11,7 +11,7 @@ export default function ProjectCard({
   isOwner: boolean;
   img: string;
 }) {
-const formattedUrl = formatUrl(project.projectUrl);
+const formattedUrl = formatUrl(project?.projectUrl || "");
   function handleClick() {
     console.log("clicked"); // TODO: implementar analytics
   }
@@ -29,9 +29,9 @@ const formattedUrl = formatUrl(project.projectUrl);
             </span>
           )}
           <div className="flex flex-col">
-            <span className="text-white font-bold">{project.projectName}</span>
+            <span className="text-white font-bold">{project?.projectName}</span>
             <span className="text-content-body text-sm">
-              {project.projectDescription}
+              {project?.projectDescription}
             </span>
           </div>
           </div>

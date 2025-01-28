@@ -1,15 +1,12 @@
 import { cert, getApps, initializeApp } from "firebase-admin/app";
 import { getFirestore } from "firebase-admin/firestore";
 import { getStorage } from "firebase-admin/storage";
+import { decode } from "punycode";
 import "server-only";
 
 // Certifcado
 
-const privateKeyFormatted = (process.env.FIREBASE_PRIVATE_KEY || "").replace(
-  /\\n/g,
-  "\n"
-);
-
+const privateKeyFormatted = process.env.FIREBASE_PRIVATE_KEY4!.split(String.raw`\n`).join('\n')
 console.log('privateKeyFormatted : ',privateKeyFormatted);
 
 const decodedKey = Buffer.from(
@@ -24,7 +21,7 @@ console.log('decodedKey : ',decodedKey);
 export const firebaseCert = cert({
   projectId: process.env.FIREBASE_PROJECT_ID,
   clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
-  privateKey: decodedKey,
+  privateKey: process.env.FIREBASE_PRIVATE_KEY4!.replace(/\\n/g, "\n"),
 });
 
 console.log('firebaseCert : ',firebaseCert);
