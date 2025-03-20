@@ -5,8 +5,9 @@ import { ProfileData } from "@/app/server/get-profile-data";
 import AddCustomLink from "./add-custom-link";
 import { formatUrl } from "@/app/lib/utils";
 import EditUserCard from "./edit-user-card";
-import { getDownloadURLFromPath } from "@/app/lib/firebase";
 import Button from "@/app/ui/button";
+import { getDownloadURLFromPath } from "@/app/lib/firebase";
+
 
 export default async function UserCard({
   profileData,

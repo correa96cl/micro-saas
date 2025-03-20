@@ -16,15 +16,10 @@
         "app/(pages)/page": {
           "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Factions%2Fadd-custom-links.ts%22%2C%5B%5B%22406160be7693d49dba62a5b1ce8939196a2fd377d4%22%2C%22default%22%5D%5D%5D%2C%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Factions%2Fcreate-social-links.ts%22%2C%5B%5B%2240a5020613ca04b0cb9f933075d5a5fbb7124fbd78%22%2C%22default%22%5D%5D%5D%2C%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Factions%2Fsave-profile.ts%22%2C%5B%5B%22406ee8ccde4732801b4547da0c720726d4fae9ce87%22%2C%22saveProfile%22%5D%5D%5D%5D&__client_imported__=true!",
           "async": true
-        },
-        "app/(pages)/[profileId]/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Factions%2Fcreate-project.ts%22%2C%5B%5B%2240d88fb16f08f78051018b9e74e0902e70f13e3bf5%22%2C%22createProject%22%5D%5D%5D%2C%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Factions%2Fadd-custom-links.ts%22%2C%5B%5B%22406160be7693d49dba62a5b1ce8939196a2fd377d4%22%2C%22default%22%5D%5D%5D%2C%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Factions%2Fcreate-social-links.ts%22%2C%5B%5B%2240a5020613ca04b0cb9f933075d5a5fbb7124fbd78%22%2C%22default%22%5D%5D%5D%2C%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Factions%2Fsave-profile.ts%22%2C%5B%5B%22406ee8ccde4732801b4547da0c720726d4fae9ce87%22%2C%22saveProfile%22%5D%5D%5D%5D&__client_imported__=true!",
-          "async": true
         }
       },
       "layer": {
-        "app/(pages)/page": "action-browser",
-        "app/(pages)/[profileId]/page": "action-browser"
+        "app/(pages)/page": "action-browser"
       }
     },
     "40a5020613ca04b0cb9f933075d5a5fbb7124fbd78": {
@@ -32,15 +27,10 @@
         "app/(pages)/page": {
           "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Factions%2Fadd-custom-links.ts%22%2C%5B%5B%22406160be7693d49dba62a5b1ce8939196a2fd377d4%22%2C%22default%22%5D%5D%5D%2C%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Factions%2Fcreate-social-links.ts%22%2C%5B%5B%2240a5020613ca04b0cb9f933075d5a5fbb7124fbd78%22%2C%22default%22%5D%5D%5D%2C%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Factions%2Fsave-profile.ts%22%2C%5B%5B%22406ee8ccde4732801b4547da0c720726d4fae9ce87%22%2C%22saveProfile%22%5D%5D%5D%5D&__client_imported__=true!",
           "async": true
-        },
-        "app/(pages)/[profileId]/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Factions%2Fcreate-project.ts%22%2C%5B%5B%2240d88fb16f08f78051018b9e74e0902e70f13e3bf5%22%2C%22createProject%22%5D%5D%5D%2C%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Factions%2Fadd-custom-links.ts%22%2C%5B%5B%22406160be7693d49dba62a5b1ce8939196a2fd377d4%22%2C%22default%22%5D%5D%5D%2C%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Factions%2Fcreate-social-links.ts%22%2C%5B%5B%2240a5020613ca04b0cb9f933075d5a5fbb7124fbd78%22%2C%22default%22%5D%5D%5D%2C%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Factions%2Fsave-profile.ts%22%2C%5B%5B%22406ee8ccde4732801b4547da0c720726d4fae9ce87%22%2C%22saveProfile%22%5D%5D%5D%5D&__client_imported__=true!",
-          "async": true
         }
       },
       "layer": {
-        "app/(pages)/page": "action-browser",
-        "app/(pages)/[profileId]/page": "action-browser"
+        "app/(pages)/page": "action-browser"
       }
     },
     "406ee8ccde4732801b4547da0c720726d4fae9ce87": {
@@ -48,48 +38,10 @@
         "app/(pages)/page": {
           "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Factions%2Fadd-custom-links.ts%22%2C%5B%5B%22406160be7693d49dba62a5b1ce8939196a2fd377d4%22%2C%22default%22%5D%5D%5D%2C%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Factions%2Fcreate-social-links.ts%22%2C%5B%5B%2240a5020613ca04b0cb9f933075d5a5fbb7124fbd78%22%2C%22default%22%5D%5D%5D%2C%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Factions%2Fsave-profile.ts%22%2C%5B%5B%22406ee8ccde4732801b4547da0c720726d4fae9ce87%22%2C%22saveProfile%22%5D%5D%5D%5D&__client_imported__=true!",
           "async": true
-        },
-        "app/(pages)/[profileId]/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Factions%2Fcreate-project.ts%22%2C%5B%5B%2240d88fb16f08f78051018b9e74e0902e70f13e3bf5%22%2C%22createProject%22%5D%5D%5D%2C%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Factions%2Fadd-custom-links.ts%22%2C%5B%5B%22406160be7693d49dba62a5b1ce8939196a2fd377d4%22%2C%22default%22%5D%5D%5D%2C%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Factions%2Fcreate-social-links.ts%22%2C%5B%5B%2240a5020613ca04b0cb9f933075d5a5fbb7124fbd78%22%2C%22default%22%5D%5D%5D%2C%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Factions%2Fsave-profile.ts%22%2C%5B%5B%22406ee8ccde4732801b4547da0c720726d4fae9ce87%22%2C%22saveProfile%22%5D%5D%5D%5D&__client_imported__=true!",
-          "async": true
         }
       },
       "layer": {
-        "app/(pages)/page": "action-browser",
-        "app/(pages)/[profileId]/page": "action-browser"
-      }
-    },
-    "408a77ec599d99c7a66946c8622fcf927c54d86578": {
-      "workers": {
-        "app/(pages)/[profileId]/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Fserver%2Fget-profile-data.ts%22%2C%5B%5B%22408a77ec599d99c7a66946c8622fcf927c54d86578%22%2C%22getProfileData%22%5D%2C%5B%2240c69afb6df6fea8f8005ff2786729cb7ed3207d27%22%2C%22getProfileProjects%22%5D%5D%5D%5D&__client_imported__=!",
-          "async": true
-        }
-      },
-      "layer": {
-        "app/(pages)/[profileId]/page": "rsc"
-      }
-    },
-    "40c69afb6df6fea8f8005ff2786729cb7ed3207d27": {
-      "workers": {
-        "app/(pages)/[profileId]/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Fserver%2Fget-profile-data.ts%22%2C%5B%5B%22408a77ec599d99c7a66946c8622fcf927c54d86578%22%2C%22getProfileData%22%5D%2C%5B%2240c69afb6df6fea8f8005ff2786729cb7ed3207d27%22%2C%22getProfileProjects%22%5D%5D%5D%5D&__client_imported__=!",
-          "async": true
-        }
-      },
-      "layer": {
-        "app/(pages)/[profileId]/page": "rsc"
-      }
-    },
-    "40d88fb16f08f78051018b9e74e0902e70f13e3bf5": {
-      "workers": {
-        "app/(pages)/[profileId]/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Factions%2Fcreate-project.ts%22%2C%5B%5B%2240d88fb16f08f78051018b9e74e0902e70f13e3bf5%22%2C%22createProject%22%5D%5D%5D%2C%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Factions%2Fadd-custom-links.ts%22%2C%5B%5B%22406160be7693d49dba62a5b1ce8939196a2fd377d4%22%2C%22default%22%5D%5D%5D%2C%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Factions%2Fcreate-social-links.ts%22%2C%5B%5B%2240a5020613ca04b0cb9f933075d5a5fbb7124fbd78%22%2C%22default%22%5D%5D%5D%2C%5B%22%2FUsers%2Fmarcelovalderramacorrea%2FDocuments%2Fprojetos%2Fmicro-saas%2Fapp%2Factions%2Fsave-profile.ts%22%2C%5B%5B%22406ee8ccde4732801b4547da0c720726d4fae9ce87%22%2C%22saveProfile%22%5D%5D%5D%5D&__client_imported__=true!",
-          "async": true
-        }
-      },
-      "layer": {
-        "app/(pages)/[profileId]/page": "action-browser"
+        "app/(pages)/page": "action-browser"
       }
     }
   },
